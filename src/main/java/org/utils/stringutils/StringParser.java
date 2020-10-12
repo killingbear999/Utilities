@@ -21,6 +21,7 @@ public class StringParser {
             throw new InvalidStringInputException();
         }
         
+        
         ArrayList<String> stringParts = new ArrayList<>();
         stringParts.addAll(Arrays.asList(stringToSplit.split(separator)));
 
